@@ -39,12 +39,12 @@
             CreateNewTeamLink = new LinkLabel();
             AddTeamButtom = new Button();
             CreatePrizebutton = new Button();
-            TournamentListBox = new ListBox();
+            TournamentPlayresListBox = new ListBox();
             TournamentPlayesLaber = new Label();
             DeleteSelectPlayerButtom = new Button();
             DeleteSelectPrizeButtom = new Button();
             label1 = new Label();
-            listBox1 = new ListBox();
+            PrizelistBox1 = new ListBox();
             CreateTournamentButtom = new Button();
             SuspendLayout();
             // 
@@ -160,15 +160,15 @@
             CreatePrizebutton.Text = "Create Prize";
             CreatePrizebutton.UseVisualStyleBackColor = true;
             // 
-            // TournamentListBox
+            // TournamentPlayresListBox
             // 
-            TournamentListBox.BorderStyle = BorderStyle.FixedSingle;
-            TournamentListBox.FormattingEnabled = true;
-            TournamentListBox.ItemHeight = 30;
-            TournamentListBox.Location = new Point(409, 112);
-            TournamentListBox.Name = "TournamentListBox";
-            TournamentListBox.Size = new Size(358, 212);
-            TournamentListBox.TabIndex = 37;
+            TournamentPlayresListBox.BorderStyle = BorderStyle.FixedSingle;
+            TournamentPlayresListBox.FormattingEnabled = true;
+            TournamentPlayresListBox.ItemHeight = 30;
+            TournamentPlayresListBox.Location = new Point(409, 112);
+            TournamentPlayresListBox.Name = "TournamentPlayresListBox";
+            TournamentPlayresListBox.Size = new Size(358, 212);
+            TournamentPlayresListBox.TabIndex = 37;
             // 
             // TournamentPlayesLaber
             // 
@@ -216,15 +216,15 @@
             label1.TabIndex = 41;
             label1.Text = "Team / Player";
             // 
-            // listBox1
+            // PrizelistBox1
             // 
-            listBox1.BorderStyle = BorderStyle.FixedSingle;
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 30;
-            listBox1.Location = new Point(409, 415);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(358, 212);
-            listBox1.TabIndex = 40;
+            PrizelistBox1.BorderStyle = BorderStyle.FixedSingle;
+            PrizelistBox1.FormattingEnabled = true;
+            PrizelistBox1.ItemHeight = 30;
+            PrizelistBox1.Location = new Point(409, 415);
+            PrizelistBox1.Name = "PrizelistBox1";
+            PrizelistBox1.Size = new Size(358, 212);
+            PrizelistBox1.TabIndex = 40;
             // 
             // CreateTournamentButtom
             // 
@@ -247,10 +247,10 @@
             Controls.Add(CreateTournamentButtom);
             Controls.Add(DeleteSelectPrizeButtom);
             Controls.Add(label1);
-            Controls.Add(listBox1);
+            Controls.Add(PrizelistBox1);
             Controls.Add(DeleteSelectPlayerButtom);
             Controls.Add(TournamentPlayesLaber);
-            Controls.Add(TournamentListBox);
+            Controls.Add(TournamentPlayresListBox);
             Controls.Add(CreatePrizebutton);
             Controls.Add(AddTeamButtom);
             Controls.Add(CreateNewTeamLink);
@@ -282,12 +282,12 @@
         private LinkLabel CreateNewTeamLink;
         private Button AddTeamButtom;
         private Button CreatePrizebutton;
-        private ListBox TournamentListBox;
+        private ListBox TournamentPlayresListBox;
         private Label TournamentPlayesLaber;
         private Button DeleteSelectPlayerButtom;
         private Button DeleteSelectPrizeButtom;
         private Label label1;
-        private ListBox listBox1;
+        private ListBox PrizelistBox1;
         private Button CreateTournamentButtom;
     }
 }
